@@ -6,7 +6,7 @@ Tongji University Course Selection Simulation System Developed Using C# and SQL 
 
 | Login Interface | Course Selection |
 | :---: | :---: |
-| ![Login Screen](<img width="2223" height="1162" alt="login" src="https://github.com/user-attachments/assets/cb468eb3-238a-4e5a-9666-d11d54430adc" />) | ![Selection Screen](<img width="1493" height="794" alt="selection" src="https://github.com/user-attachments/assets/8309cff6-c5b5-4e00-b7e2-6d4221d8f0c5" />) |
+| ![Login Screen](https://github.com/user-attachments/assets/cb468eb3-238a-4e5a-9666-d11d54430adc" /) | ![Selection Screen](https://github.com/user-attachments/assets/8309cff6-c5b5-4e00-b7e2-6d4221d8f0c5" /) |
 
 ---
 
