@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D1E6EC4-4CB9-4C2C-BA50-E700B165B01D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_1系统</RootNamespace>
+    <AssemblyName>1系统</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SunnyUI, Version=3.8.0.1, Culture=neutral, PublicKeyToken=27d7d2e821d97aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\SunnyUI.3.8.0.1\lib\net40\SunnyUI.dll</HintPath>
+    </Reference>
+    <Reference Include="SunnyUI.Common, Version=3.8.0.0, Culture=neutral, PublicKeyToken=5a271fb7ba597231, processorArchitecture=MSIL">
+      <HintPath>..\packages\SunnyUI.Common.3.8.0\lib\net40\SunnyUI.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="修改管理员信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="修改管理员信息.designer.cs">
+      <DependentUpon>修改管理员信息.cs</DependentUpon>
+    </Compile>
+    <Compile Include="学生UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="学生UI.designer.cs">
+      <DependentUpon>学生UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="学生信息修改.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="学生信息修改.designer.cs">
+      <DependentUpon>学生信息修改.cs</DependentUpon>
+    </Compile>
+    <Compile Include="密码修改.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="密码修改.designer.cs">
+      <DependentUpon>密码修改.cs</DependentUpon>
+    </Compile>
+    <Compile Include="开课.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="开课.designer.cs">
+      <DependentUpon>开课.cs</DependentUpon>
+    </Compile>
+    <Compile Include="查询课程.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="查询课程.designer.cs">
+      <DependentUpon>查询课程.cs</DependentUpon>
+    </Compile>
+    <Compile Include="添加学生信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="添加学生信息.designer.cs">
+      <DependentUpon>添加学生信息.cs</DependentUpon>
+    </Compile>
+    <Compile Include="添加管理员信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="添加管理员信息.designer.cs">
+      <DependentUpon>添加管理员信息.cs</DependentUpon>
+    </Compile>
+    <Compile Include="登陆.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="登陆.designer.cs">
+      <DependentUpon>登陆.cs</DependentUpon>
+    </Compile>
+    <Compile Include="管理员界面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理员界面.designer.cs">
+      <DependentUpon>管理员界面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="选课须知.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="选课须知.Designer.cs">
+      <DependentUpon>选课须知.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="修改管理员信息.resx">
+      <DependentUpon>修改管理员信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="学生UI.resx">
+      <DependentUpon>学生UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="学生信息修改.resx">
+      <DependentUpon>学生信息修改.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="密码修改.resx">
+      <DependentUpon>密码修改.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="开课.resx">
+      <DependentUpon>开课.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="查询课程.resx">
+      <DependentUpon>查询课程.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="添加学生信息.resx">
+      <DependentUpon>添加学生信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="添加管理员信息.resx">
+      <DependentUpon>添加管理员信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="登陆.resx">
+      <DependentUpon>登陆.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="管理员界面.resx">
+      <DependentUpon>管理员界面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="选课须知.resx">
+      <DependentUpon>选课须知.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
