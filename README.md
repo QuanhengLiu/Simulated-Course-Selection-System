@@ -2,7 +2,7 @@
 Tongji University Course Selection Simulation System Developed Using C# and SQL Server
 
 
-## 📸 Project Demo
+## Project Demo
 
 | Login Interface | Course Selection |
 | :---: | :---: |
@@ -10,7 +10,7 @@ Tongji University Course Selection Simulation System Developed Using C# and SQL 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Language:** C# (.NET Framework 4.6.1)
 * **Database:** Microsoft SQL Server
@@ -21,7 +21,7 @@ Tongji University Course Selection Simulation System Developed Using C# and SQL 
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 * **Role-Based Access Control (RBAC):** Supports three distinct user roles—Student, Teacher, and Administrator—with specific permissions and views.
 * **Conflict Detection:** Automatically detects time conflicts during the course selection process to prevent overlapping schedules.
@@ -30,15 +30,15 @@ Tongji University Course Selection Simulation System Developed Using C# and SQL 
 
 ---
 
-## 📂 Database Design
+## Database Design
 
 > **Note:** Due to local environment limitations, an automated SQL initialization script is not currently included.
 
-👉 **Please refer to `Database_Design_Doc.pdf` for the detailed database schema, E-R diagrams, and design documentation.**
+**Please refer to `Database_Design_Doc.pdf` for the detailed database schema, E-R diagrams, and design documentation.**
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1.  **Clone the repository:**
     ```bash
@@ -53,13 +53,13 @@ Tongji University Course Selection Simulation System Developed Using C# and SQL 
 
 ---
 
-## 🙌 Acknowledgments
+## Acknowledgments
 
 * Special thanks to **Jianfeng Zhao** for his valuable assistance in the design and implementation of the database.
 * Thanks to **Haoyu Wang** for preparing the presentation documentation and demo materials.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
