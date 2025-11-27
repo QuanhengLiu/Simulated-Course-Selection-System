@@ -6,7 +6,7 @@ Tongji University Course Selection Simulation System Developed Using C# and SQL 
 
 | Login Interface | Course Selection |
 | :---: | :---: |
-| ![Login Screen](https://github.com/user-attachments/assets/cb468eb3-238a-4e5a-9666-d11d54430adc" /) | ![Selection Screen](https://github.com/user-attachments/assets/8309cff6-c5b5-4e00-b7e2-6d4221d8f0c5" /) |
+| ![Login Screen](https://github.com/user-attachments/assets/cb468eb3-238a-4e5a-9666-d11d54430adc) | ![Selection Screen](https://github.com/user-attachments/assets/8309cff6-c5b5-4e00-b7e2-6d4221d8f0c5) |
 
 ---
 
@@ -42,7 +42,7 @@ Tongji University Course Selection Simulation System Developed Using C# and SQL 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/QuanhengLiu/Simulated-Course-Selection-System.git](https://github.com/QuanhengLiu/Simulated-Course-Selection-System.git)
+    git clone https://github.com/QuanhengLiu/Simulated-Course-Selection-System.git
     ```
 2.  **Open the project:**
     Launch Visual Studio and open the `.sln` solution file.
